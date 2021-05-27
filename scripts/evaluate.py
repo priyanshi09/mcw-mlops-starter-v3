@@ -85,6 +85,7 @@ eval_info["deploy_model"] = deploy_model
 eval_info['train_run_id'] = latest_model_run_id
 eval_info['eval_run_id'] = run.id
 
+#this is the main function
 if deploy_model:
     os.chdir(args.input)
     cardata_ds_name = 'connected_car_components'
